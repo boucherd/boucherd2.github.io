@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html id="wrap">
+
+   <head>
+   <!--
+      Author: Dylan Boucher
+      Supporting files: hops.jpeg
+    The join hops page is a good substitute for the contact us page since we want very similar functionality
+   -->
+      <meta charset="UTF-8" />
+       <meta name="contact us" content="HTML,CSS">
+      <title>Join Hops (Contact) </title>
+      <script src="modernizr-1.5.js"></script>
+      <link href="main.css" rel="stylesheet" type="text/css" />
+       <link href="normalize.css" rel="stylesheet" type="text/css" />
+   </head>
+
+   <body>
+
+      <header id="Top">
+          Wisconsin Hops
+      </header>
+    <nav>
+            <ul>
+            <li><a href="home.htm"> Home</a> </li>
+            <li><a href="Joinhops.htm"> Join Hops</a> </li>
+            <li><a href="Projects.htm"> History</a> </li>
+            <li><a href="Gallery.htm"> Gallery</a> </li>    
+           </ul>
+       </nav>
+       
+       <h3 id="none"> Play for Wisconsin Hops
+       </h3>
+       
+       <p>
+           Are you interested in playing Club Ultimate? 
+
+Wisconsin Hops is an Open Ultimate Frisbee Team primarily based out of Stevens Point Wisconsin, but members travel from all parts of the state. Founded in 2005, Hops ran for a 4 years before being disbanded. Hops then reemerged when Tom Hoeft wrangled together some of the best players across the state.  Hops strive to create a positive ultimate culture in central Wisconsin for all elite players to participate in. 
+  
+           
+       </p>
+       
+    <form method= "post">
+       
+        <fieldset name="BusinessInformation" id="BusinessInformation">
+                <legend> Contact Information</legend>
+        <label>Company
+            <input for="Company" required>
+            </label>
+            
+            <label>First Name
+            <input for="FirstName" required>
+            </label>
+            
+            <label>Last Name
+            <input for="LastName" required>
+            </label>
+            
+              <label for="city">City</label>
+            <input name="city" id="city" value="Wausau">
+            
+            <label for="state"> State (abbr.)</label>
+            <input name="state" id="state" value="WI">
+            
+             <label for="zip">Postal Code</label>
+            <input name="zip" id="zip" placeholder="nnnnn (nnnn)" pattern="^\d{5}(\-\d{4})?$">
+            
+            <label for="email">Email *</label>
+            <input name="email" id="email" required type="email">
+            
+               <label for="phone">Phone Number</label>
+            <input name="phone" id="phone" placeholder="(nnn)nnn-nnnnn" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+            
+        
+        </fieldset>
+        
+        <fieldset name="comments" id="comments"> 
+         <label>Comments<br> (500 character limit)<textarea maxlength="500"></textarea></label>
+        </fieldset>
+        <input type="submit" value="Submit Comment">
+       </form>
+       
+       
+       
+    </body>
+    
+    
+    <footer>  <a href="#Top">Top</a>
+         <address>
+            2100 Reserve St, Stevens Point, WI 54481
+         </address>
+      </footer> 

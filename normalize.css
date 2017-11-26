@@ -1,0 +1,86 @@
+/*
+   Author: Dylan Boucher
+   Date:   11/20/2017
+   Supporting Files: none
+
+*/
+
+
+/* body Styles */
+
+footer {
+    background: url(hops.jpeg) top left no-repeat;
+}
+
+html {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    float: left;
+    display: block;
+    
+}
+
+footer{
+    border: 1px solid black;
+}
+
+aside{
+    border-radius: 10px;
+    border: 1px dashed darkblue;
+    display: block;
+    width: 49%;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+section {
+    display: block;
+}
+
+figure img {
+    max-width: 800px;
+    
+}
+
+nav {
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+
+   height: 38px;
+   width: 98%;
+   margin: 0px 1%;
+    padding-bottom:  20px;
+}
+
+nav li{
+       border: 1px solid rgb(171, 171, 171);
+   display: block;
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   float: left;
+   height: 30px;
+   letter-spacing: =3px;
+   line-height: 30px;
+   margin: 3px 0.5%;
+   text-align: center;
+   width: 12%;
+}
+
+#Wisco {
+    padding-top: 20px;
+}
+
+img {
+    max-width: 460px;
+    
+}

@@ -1,0 +1,150 @@
+/*
+   Author: Dylan Boucher
+   Date:   11/20/2017
+   Supporting Files: none
+
+*/
+
+
+/* body Styles */
+
+body {
+    background-color: rgb(255,255,255);
+    font-family: Verdana, Geneva, sans-serif; 
+}
+
+h2 {
+    background-color: rgb(0,0,0);
+    color: white;
+}
+
+aside h2 {
+    color: lightblue;
+}
+
+
+aside p.asidetext {
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+h1 {
+  font-size: 1.5em;  
+}
+
+address {
+    font-size: 0.75em;
+    text-align: center;   
+}
+
+aside ul {
+    list-style-type: square;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a {
+    list-style-type: none;
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover{
+    color: lightblue;   
+}
+
+table tr td {
+    padding: 10px 10px 10px 10px;
+    
+}
+
+
+
+
+
+/* Save for last There is a comment indicating the table styles in the main style sheet so these styles are easy to find. */
+
+table.htable tr td {
+    color: lightblue;
+     background-color: grey;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+    
+
+table.htable thead {
+    background-color: black;
+     border: 1px solid black;
+    color: white;
+    
+}
+
+table.htable {
+    width: 50%;
+    float: right;
+}
+
+table.ptable {
+     background-color: black;
+     border: 1px solid black;
+    color: white;
+       
+}
+
+caption {
+    caption-side: bottom;
+}
+
+table.ptable tr td {
+    color: lightblue;
+     background-color: grey;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+/* Forms Styles */
+
+
+fieldset{
+    background-color: rgb(245,245,255);
+    margin: 15px auto;
+    padding: 5px;
+    width: 90%;
+}
+
+
+label{
+    display: block;
+    float: left;
+    clear: left;
+    font-size: 0.9em;
+    width: 100%;
+    margin: 5px;
+}
+
+input, textarea{
+    display: block;
+    float: right;
+    font-size: 0.9em;
+    width: 55%;
+    margin: 0 10px;
+}
+
+textarea{
+    height: 150px;
+}
+
+input[type="submit"]{
+    display: block;
+    clear: both;
+    float: none;
+    width: 200px;
+    height: 30px;
+    margin: 5px auto;
+    
+}
